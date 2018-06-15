@@ -72,5 +72,6 @@ end
 
 def add_s(array)
   array.each do |ele|
-  puts ele "s"
+  puts ele + "s"
+end
 end
