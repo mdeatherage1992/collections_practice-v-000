@@ -53,7 +53,6 @@ def kesha_maker(array)
     array.sub(array[2],"$")
     return array
 end
-end
 
 def find_a(array)
 end
