@@ -4,7 +4,7 @@ def sort_array_asc(array)
     0
   elsif b > a
     -1
-  elsif a < b
+  elsif b < a
     1
   end
 end
