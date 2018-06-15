@@ -71,4 +71,9 @@ return sum
 end
 
 def add_s(array)
+  array.each do |ele|
+    if ele != array[2]
+      ele + "s"
+    end
+  end
 end
