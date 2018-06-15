@@ -50,7 +50,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-    array.sub(array[2],"$")
+    array.sub! array[2],"$"
     return array
 end
 
