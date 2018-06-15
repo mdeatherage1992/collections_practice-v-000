@@ -52,7 +52,6 @@ end
 def kesha_maker(array)
     array[2] = "$"
     return array
-  end
 end
 
 def find_a(array)
