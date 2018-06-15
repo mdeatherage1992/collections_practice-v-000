@@ -50,8 +50,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  if array[2] != "$"
-    array[2] == "$"
+    array[2] = "$"
     return array
   end
 end
