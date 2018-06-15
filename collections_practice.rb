@@ -24,6 +24,15 @@ end
 end
 
 def sort_array_char_count(array)
+  array.sort do |a, b|
+  if a.length == b.length
+    0
+  elsif b.length > a.length
+    -1
+  elsif b.length < a.length
+    1
+  end
+end
 end
 
 def swap_elements(array)
