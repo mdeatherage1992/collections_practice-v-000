@@ -76,4 +76,5 @@ def add_s(array)
     puts ele + "s"
   end
 end
+return array
 end
