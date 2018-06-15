@@ -46,6 +46,7 @@ end
 end
 
 def reverse_array(array)
+  return array.reverse
 end
 
 def kesha_maker(array)
