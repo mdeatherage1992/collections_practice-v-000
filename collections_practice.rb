@@ -52,8 +52,8 @@ end
 def kesha_maker(array)
   array.each do |name|
     name[2] == "$"
-    return array
 end
+return array
 end
 
 def find_a(array)
