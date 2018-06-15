@@ -73,7 +73,7 @@ end
 def add_s(array)
   array.each do |ele|
   if ele != array[2]
-    puts array + "s"
+    puts ele + "s"
   end
 end
 end
